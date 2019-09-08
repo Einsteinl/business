@@ -1,0 +1,10 @@
+
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+limit:
+  minMoney: 1
+  maxMoney: 10
+  desc: 最低${limit.minMoney}最高${limit.maxMoney}
